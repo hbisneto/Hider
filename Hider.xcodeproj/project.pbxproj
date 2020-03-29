@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8526A9243014930090D83A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8526A8243014930090D83A /* AppDelegate.m */; };
+		EC8526AC243014930090D83A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8526AB243014930090D83A /* main.m */; };
+		EC8526AE243014940090D83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8526AD243014940090D83A /* Assets.xcassets */; };
+		EC8526B1243014940090D83A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8526AF243014940090D83A /* MainMenu.xib */; };
+		EC8526BC243014950090D83A /* HiderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8526BB243014950090D83A /* HiderTests.m */; };
+		EC8526C7243014950090D83A /* HiderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8526C6243014950090D83A /* HiderUITests.m */; };
+		EC8526D9243034DA0090D83A /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8526D8243034DA0090D83A /* AppIcon.png */; };
+		EC8526E12430657F0090D83A /* HiderStatusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8526E02430657F0090D83A /* HiderStatusBarIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8526B8243014950090D83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC85269C243014900090D83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8526A3243014910090D83A;
+			remoteInfo = Hider;
+		};
+		EC8526C3243014950090D83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC85269C243014900090D83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8526A3243014910090D83A;
+			remoteInfo = Hider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8526A4243014930090D83A /* Hider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8526A7243014930090D83A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC8526A8243014930090D83A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC8526AB243014930090D83A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8526AD243014940090D83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8526B0243014940090D83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EC8526B2243014940090D83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8526B7243014950090D83A /* HiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8526BB243014950090D83A /* HiderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiderTests.m; sourceTree = "<group>"; };
+		EC8526BD243014950090D83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8526C2243014950090D83A /* HiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8526C6243014950090D83A /* HiderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiderUITests.m; sourceTree = "<group>"; };
+		EC8526C8243014950090D83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8526D8243034DA0090D83A /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		EC8526E02430657F0090D83A /* HiderStatusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HiderStatusBarIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8526A1243014910090D83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8526B4243014950090D83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8526BF243014950090D83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC85269B243014900090D83A = {
+			isa = PBXGroup;
+			children = (
+				EC8526A6243014930090D83A /* Hider */,
+				EC8526BA243014950090D83A /* HiderTests */,
+				EC8526C5243014950090D83A /* HiderUITests */,
+				EC8526A5243014930090D83A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8526A5243014930090D83A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8526A4243014930090D83A /* Hider.app */,
+				EC8526B7243014950090D83A /* HiderTests.xctest */,
+				EC8526C2243014950090D83A /* HiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8526A6243014930090D83A /* Hider */ = {
+			isa = PBXGroup;
+			children = (
+				EC8526D8243034DA0090D83A /* AppIcon.png */,
+				EC8526E02430657F0090D83A /* HiderStatusBarIcon.png */,
+				EC8526A7243014930090D83A /* AppDelegate.h */,
+				EC8526A8243014930090D83A /* AppDelegate.m */,
+				EC8526AD243014940090D83A /* Assets.xcassets */,
+				EC8526AF243014940090D83A /* MainMenu.xib */,
+				EC8526B2243014940090D83A /* Info.plist */,
+				EC8526AA243014930090D83A /* Supporting Files */,
+			);
+			path = Hider;
+			sourceTree = "<group>";
+		};
+		EC8526AA243014930090D83A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8526AB243014930090D83A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8526BA243014950090D83A /* HiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8526BB243014950090D83A /* HiderTests.m */,
+				EC8526BD243014950090D83A /* Info.plist */,
+			);
+			path = HiderTests;
+			sourceTree = "<group>";
+		};
+		EC8526C5243014950090D83A /* HiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8526C6243014950090D83A /* HiderUITests.m */,
+				EC8526C8243014950090D83A /* Info.plist */,
+			);
+			path = HiderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8526A3243014910090D83A /* Hider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8526CB243014950090D83A /* Build configuration list for PBXNativeTarget "Hider" */;
+			buildPhases = (
+				EC8526A0243014910090D83A /* Sources */,
+				EC8526A1243014910090D83A /* Frameworks */,
+				EC8526A2243014910090D83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hider;
+			productName = Hider;
+			productReference = EC8526A4243014930090D83A /* Hider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8526B6243014950090D83A /* HiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8526CE243014950090D83A /* Build configuration list for PBXNativeTarget "HiderTests" */;
+			buildPhases = (
+				EC8526B3243014950090D83A /* Sources */,
+				EC8526B4243014950090D83A /* Frameworks */,
+				EC8526B5243014950090D83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8526B9243014950090D83A /* PBXTargetDependency */,
+			);
+			name = HiderTests;
+			productName = HiderTests;
+			productReference = EC8526B7243014950090D83A /* HiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC8526C1243014950090D83A /* HiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8526D1243014950090D83A /* Build configuration list for PBXNativeTarget "HiderUITests" */;
+			buildPhases = (
+				EC8526BE243014950090D83A /* Sources */,
+				EC8526BF243014950090D83A /* Frameworks */,
+				EC8526C0243014950090D83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8526C4243014950090D83A /* PBXTargetDependency */,
+			);
+			name = HiderUITests;
+			productName = HiderUITests;
+			productReference = EC8526C2243014950090D83A /* HiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC85269C243014900090D83A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Heitor;
+				TargetAttributes = {
+					EC8526A3243014910090D83A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC8526B6243014950090D83A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC8526A3243014910090D83A;
+					};
+					EC8526C1243014950090D83A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC8526A3243014910090D83A;
+					};
+				};
+			};
+			buildConfigurationList = EC85269F243014900090D83A /* Build configuration list for PBXProject "Hider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC85269B243014900090D83A;
+			productRefGroup = EC8526A5243014930090D83A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8526A3243014910090D83A /* Hider */,
+				EC8526B6243014950090D83A /* HiderTests */,
+				EC8526C1243014950090D83A /* HiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8526A2243014910090D83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8526E12430657F0090D83A /* HiderStatusBarIcon.png in Resources */,
+				EC8526D9243034DA0090D83A /* AppIcon.png in Resources */,
+				EC8526AE243014940090D83A /* Assets.xcassets in Resources */,
+				EC8526B1243014940090D83A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8526B5243014950090D83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8526C0243014950090D83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8526A0243014910090D83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8526AC243014930090D83A /* main.m in Sources */,
+				EC8526A9243014930090D83A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8526B3243014950090D83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8526BC243014950090D83A /* HiderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8526BE243014950090D83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8526C7243014950090D83A /* HiderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8526B9243014950090D83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8526A3243014910090D83A /* Hider */;
+			targetProxy = EC8526B8243014950090D83A /* PBXContainerItemProxy */;
+		};
+		EC8526C4243014950090D83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8526A3243014910090D83A /* Hider */;
+			targetProxy = EC8526C3243014950090D83A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8526AF243014940090D83A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8526B0243014940090D83A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8526C9243014950090D83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC8526CA243014950090D83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC8526CC243014950090D83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Bisneto.Hider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC8526CD243014950090D83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Bisneto.Hider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC8526CF243014950090D83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bisneto.HiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hider.app/Contents/MacOS/Hider";
+			};
+			name = Debug;
+		};
+		EC8526D0243014950090D83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HiderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bisneto.HiderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hider.app/Contents/MacOS/Hider";
+			};
+			name = Release;
+		};
+		EC8526D2243014950090D83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bisneto.HiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hider;
+			};
+			name = Debug;
+		};
+		EC8526D3243014950090D83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HiderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bisneto.HiderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC85269F243014900090D83A /* Build configuration list for PBXProject "Hider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8526C9243014950090D83A /* Debug */,
+				EC8526CA243014950090D83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8526CB243014950090D83A /* Build configuration list for PBXNativeTarget "Hider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8526CC243014950090D83A /* Debug */,
+				EC8526CD243014950090D83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC8526CE243014950090D83A /* Build configuration list for PBXNativeTarget "HiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8526CF243014950090D83A /* Debug */,
+				EC8526D0243014950090D83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC8526D1243014950090D83A /* Build configuration list for PBXNativeTarget "HiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8526D2243014950090D83A /* Debug */,
+				EC8526D3243014950090D83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC85269C243014900090D83A /* Project object */;
+}
