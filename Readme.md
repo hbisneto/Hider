@@ -10,4 +10,4 @@ Hider para Mac:
 
 #
 
-Copyright © 2020 Heitor. All rights reserved.
+Copyright © 2020 Heitor Bisneto. All rights reserved.
