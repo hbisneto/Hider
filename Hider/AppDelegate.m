@@ -27,8 +27,9 @@
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu: menu];
     [statusItem setTitle:@""]; // Title on StatusBar
-    [statusItem setHighlightMode:YES];
+    [statusItem setHighlightMode:NO];
     [statusItem setImage:[NSImage imageNamed:@"HiderStatusBarIcon"]];
 }
+
 
 @end
